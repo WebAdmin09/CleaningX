@@ -1,0 +1,120 @@
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 32px 15px;
+}
+
+.service {
+    margin-top: 194px;
+}
+
+.service__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.service__wrapper-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.wrapper__header-h2 {
+    color: #211F54;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 57.984px;
+}
+
+.wrapper__header-btn {
+    color: #211F54;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19.998px;
+    padding: 14px 26px;
+    background-color: #0075FF;
+    border-radius: 14px;
+    border: 1px solid #0075FF;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.wrapper__header-btn:hover {
+    background-color: white;
+    color: #0075FF;
+    transition: 0.5s;
+}
+
+.service__item-h4 {
+    color: #211F54;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 34.008px;
+}
+
+.service__item-title {
+    color: #6E7191;
+    text-align: center;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30.006px;
+}
+
+.service__wrapper-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 76px;
+    column-gap: 20px;
+}
+
+.service__cards-item {
+    border-radius: 16px;
+    border: 1px solid #EFF0F6;
+    background: #FFF;
+    box-shadow: 0px 2px 6px 0px rgba(20, 20, 43, 0.04);
+    height: 494px;
+    max-width: 388px;
+    padding: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@media (max-width: 950px) {
+    .service__cards-item {
+        max-width: 300px;
+    }
+    .service__item-h4{
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .service__item-title{
+        font-size: 15px;
+        line-height: 20px;
+        margin-top: 15px;
+    }
+    .service__item-img{
+        max-width: 200px;
+        max-height: 200px;
+    }
+}
+@media (max-width: 850px) {
+    .service__wrapper-cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 50px;
+    }
+}

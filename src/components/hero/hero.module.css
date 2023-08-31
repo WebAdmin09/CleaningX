@@ -1,0 +1,190 @@
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 32px 15px;
+}
+
+.hero__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.hero__wrapper-text {
+    max-width: 650px;
+    max-height: 365px;
+}
+
+.hero-heading {
+    color: #211F54;
+    font-size: 68px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 73.984px;
+}
+
+.hero-title {
+    margin-top: 24px;
+    color: #6E7191;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30.006px;
+}
+
+.hero__button {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.phone__div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.phone__div-div h6 {
+    color: #6E7191;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+}
+
+.phone__div-div span {
+    color: #211F54;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36.008px;
+}
+
+.hero__button-btn {
+    padding: 23px 33px;
+    background-color: #0075FF;
+    border-radius: 14px;
+    border: 1px solid #0075FF;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.hero__button-btn:hover {
+    background-color: white;
+    color: #0075FF;
+    transition: 0.5s;
+}
+
+.hero__backimg {
+    max-width: 620px;
+    max-height: 634px;
+}
+
+@media (max-width: 1100px) {
+    .hero__backimg {
+        max-width: 520px;
+        max-height: 534px;
+    }
+
+    .phone__div-div span {
+        font-size: 20px;
+        font-weight: 500;
+    }
+}
+
+@media (max-width: 935px) {
+    .hero__backimg {
+        max-width: 420px;
+        max-height: 434px;
+    }
+    .phone__div-div span {
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 25px;
+    }
+    .phone__div{
+        max-width: 250px;
+        max-height: 100px;
+    }
+    .phone__icon{
+        max-width: 55px;
+        max-height: 55px;
+    }
+    .hero__button-btn {
+        padding: 17px 24px;
+        background-color: #0075FF;
+        border-radius: 14px;
+        border: 1px solid #0075FF;
+        color: white;
+        transition: 0.5s;
+        cursor: pointer;
+        font-size: 18px;
+    }
+}
+@media (max-width: 850px) {
+    .hero__backimg {
+        max-width: 320px;
+        max-height: 334px;
+    }
+    .hero-heading{
+        font-size: 50px;
+        max-width: 400px;
+        line-height: 50px;
+    }
+    .hero-title{
+        font-size: 20px;
+        line-height: 25px;
+    }
+}
+@media (max-width: 750px) {
+    .hero__backimg {
+        max-width: 250px;
+        max-height: 250px;
+    }
+    .hero-heading{
+        font-size: 40px;
+        line-height: 40px;
+        max-width: 340px;
+    }
+    .hero-title{
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+}
+
+
+@media (max-width: 600px) {
+    .hero__wrapper{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    .hero__wrapper-text{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .hero__backimg {
+        max-width: 250px;
+        max-height: 250px;
+    }
+    .hero-heading{
+        font-size: 40px;
+        line-height: 40px;
+        max-width: 340px;
+    }
+    .hero-title{
+        font-size: 20px;
+        line-height: 25px;
+    }
+}

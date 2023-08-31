@@ -1,0 +1,149 @@
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 32px 15px;
+}
+
+.about {
+    margin-top: 155px;
+}
+
+.about__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about__wrapper-h2 {
+    color: #211F54;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 57.984px;
+}
+
+.about__wrapper-title {
+    margin-top: 24px;
+    color: #6E7191;
+    text-align: center;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30.006px;
+    max-width: 648px;
+}
+
+.about__wrapper-cards {
+    margin-top: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    column-gap: 55px;
+}
+
+.card__item-h3 {
+    color: #211F54;
+    text-align: center;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36.008px;
+    margin-top: 15px;
+}
+
+.card__item-title {
+    margin-top: 15px;
+    color: #6E7191;
+    text-align: center;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30.006px;
+    max-width: 300px;
+}
+
+.about__button {
+    margin-top: 57px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 400px;
+}
+
+.about__button-btn {
+    padding: 14px 26px;
+    background-color: #0075FF;
+    border-radius: 14px;
+    border: 1px solid #0075FF;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.about__button-btn:hover {
+    background-color: white;
+    color: #0075FF;
+    transition: 0.5s;
+}
+
+@media (max-width:917px) {
+    
+}
+
+@media (max-width: 810px) {
+    .about__wrapper-cards {
+        width: 80%;
+        column-gap: 50px;
+    }
+
+    .card__item-img {
+        max-width: 200px;
+        max-height: 200px;
+    }
+
+    .card__item-h3 {
+        font-size: 22px;
+    }
+
+    .card__item-title {
+        font-size: 17px;
+        line-height: 15px;
+        font-weight: 400;
+        max-width: 200px;
+    }
+}
+
+@media (max-width: 720px) {
+    .about__wrapper-cards {
+        width: 80%;
+        column-gap: 30px;
+    }
+
+    .card__item-img {
+        max-width: 150px;
+        max-height: 150px;
+    }
+
+    .card__item-h3 {
+        font-size: 17px;
+        line-height: 20px;
+    }
+
+    .card__item-title {
+        font-size: 15px;
+        line-height: 15px;
+        font-weight: 400;
+    }
+}
+
+@media (max-width: 520px) {
+    .about__wrapper-cards {
+        display: flex;
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+    }
+}

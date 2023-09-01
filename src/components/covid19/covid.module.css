@@ -1,0 +1,153 @@
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 32px 15px;
+}
+
+.covid {
+    margin-top: 100px;
+}
+
+.covid__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 24px;
+    background: #211F54;
+    column-gap: 60px;
+}
+
+.covid__wrapper-text {
+    max-width: 650px;
+    max-height: 365px;
+}
+
+.covid-span {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+}
+
+.covid-heading {
+    margin-top: 5px;
+    color: #FFF;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 57.984px;
+}
+
+.covid-title {
+    margin-top: 12px;
+    color: #FFF;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30.006px;
+}
+
+.covid__button {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.phone__div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.phone__div-div h6 {
+    color: #6E7191;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+}
+
+.phone__div-div span {
+    color: #FFF;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36.008px;
+}
+
+.covid__button-btn {
+    padding: 23px 33px;
+    background-color: #0075FF;
+    border-radius: 14px;
+    border: 1px solid #0075FF;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.covid__button-btn:hover {
+    background-color: white;
+    color: #0075FF;
+    transition: 0.5s;
+}
+
+.covid__backimg {
+    max-width: 518px;
+    max-height: 676px;
+}
+
+@media (max-width: 1050px) {
+    .covid__wrapper-text{
+        margin-right: 20px;
+    }
+    .covid-heading{
+        font-size: 44px;
+        line-height: 50px;
+    }
+    .covid__button-btn{
+        padding: 10px 10px;
+    }
+    .phone__icon{
+        max-width: 70px;
+        max-height: 70px;
+    }
+    .phone__div-div span{
+        font-size: 17px;
+        font-weight: 400px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .covid__backimg{
+        max-width: 418px;
+        max-height: 650px;
+    }
+    .covid-heading{
+        font-size: 30px;
+        line-height: 40px;
+        max-width: 300px;
+    }
+    .covid__button{
+        width: 80%;
+    }
+    .covid__wrapper-img{
+        max-width: 200px;
+        display: none;
+    }
+    .covid__wrapper-text{
+        max-width: 400px;
+    }
+    /* .covid__wrapper{
+        column-gap: 20px;
+        display: flex;
+        flex-direction: column-reverse;
+    } */
+}
